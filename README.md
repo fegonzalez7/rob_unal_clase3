@@ -1,7 +1,6 @@
 # Robotics - UNAL - LAB3
 
 ## Requirements
-------
 ### Dynamixel wizard
 To test the dynamixel motors there is no better way than the official robotis software. [Here](https://emanual.robotis.com/docs/en/software/dynamixel/dynamixel_wizard2/) you will find an extensive installation tutorial. Once it is installed should look like this:
 ![](https://i.postimg.cc/wMLrh23Y/Screenshot-from-2022-03-04-20-44-38.png) 
