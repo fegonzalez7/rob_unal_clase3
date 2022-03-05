@@ -65,6 +65,7 @@ Check the USB ports and grand root permissions to the port:
 ls /dev/tty*
 sudo chmod 777 /dev/ttyUSB0
 ```
+![](https://i.postimg.cc/66FkP2Nm/Screenshot-from-2022-03-04-23-20-39.png)
 *Normally USB0 is the port
 
 Now launch the dynamixel_one_motor node:
