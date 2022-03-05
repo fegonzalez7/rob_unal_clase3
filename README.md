@@ -7,12 +7,12 @@ To test the dynamixel motors there is no better way than the official robotis so
 ![](https://i.postimg.cc/wMLrh23Y/Screenshot-from-2022-03-04-20-44-38.png) 
 
 ### Dynamixel_workbench package
-The *dynamixel_workbench* is neccesary to control the dynamixel interface in ROS. Further info about the package is availible here. The instalation process just require yo to run the command:
+The *dynamixel_workbench* is necessary to control the dynamixel interface in ROS. Further info about the package is available here. The installation process just requires you to run the command:
 ```console
 sudo apt install ros-noetic-dynamixel-workbench
 ```
 
-To confirm a successfuly installation type:
+To confirm a successful installation type:
 ```console
 rospack find dynamixel_
 ```
@@ -21,14 +21,14 @@ And press *tab* to autocomplete. It should look like this:
 
 ------
 ## *Dynamixel Wizard*
-It is a powerfull tool to test and set up the dynamixel line. We are gonna make some basic tests connecting one motor.
+It is a powerful tool to test and set up the dynamixel line. We are gonna make some basic tests connecting one motor.
  
  1. **Connect the dynamixel line:** Details during the class.
  2. **Open dynamixel wizard:** Just in case.
 
  ![](https://i.postimg.cc/wMqNVTjx/Screenshot-from-2022-03-04-21-09-04.png)
 
- 3. **Set up the connection parameters**: In the main manu goto to *Tools*, *Options*. Or just press *F4*. Use the parameters provided in the following picture:
+ 3. **Set up the connection parameters**: In the main menu goto to *Tools*, *Options*. Or just press *F4*. Use the parameters provided in the following picture:
 
  ![](https://i.postimg.cc/6302yJLk/Screenshot-from-2022-03-04-21-03-55.png)
 
@@ -37,11 +37,11 @@ It is a powerfull tool to test and set up the dynamixel line. We are gonna make 
  ![](https://i.postimg.cc/VL5rLhSh/Screenshot-from-2022-03-04-21-13-26.png)
  ![](https://i.postimg.cc/rsHpr8dP/Screenshot-from-2022-03-04-21-14-33.png)
 
- 5. **Play with the device:** If the connection is successful now you can play with the dynamixel motor. Remember just change the items that the professor indicate to you during the class. (Obviously the important stuff is lock - red).
+ 5. **Play with the device:** If the connection is successful now you can play with the dynamixel motor. Remember just change the items that the professor indicates to you during the class. (Obviously, the important stuff is lock-red).
 
  ![](https://i.postimg.cc/Gmy4vsxJ/Screenshot-from-2022-03-04-21-03-09.png)
 
- 6. **Disconnect the decive and close:** Once the fun is over, it is time to disconnect the dynamixel device and close dynamixel wizard.
+ 6. **Disconnect the device and close:** Once the fun is over, it is time to disconnect the dynamixel device and close the dynamixel wizard.
 
  ![](https://i.postimg.cc/5tJ2vK0b/Screenshot-from-2022-03-04-23-04-31.png)
 
@@ -60,7 +60,7 @@ Make sure that the FTDI is connected:
 lsusb
 ```
 
-Chenck the USB ports and grand root permissions to the port:
+Check the USB ports and grand root permissions to the port:
 ```console
 ls /dev/tty*
 sudo chmod 777 /dev/ttyUSB0
@@ -92,4 +92,4 @@ In contrast to the *turtlesim* that uses a topic to move the turtle, in the dyna
  - Sebastian Realpe
  - Hans Milos Toquica
 
-This repo has taken a lot of effort, so consider to leave a star, follow me, and if you feel generous I have paypal (just kidding).
+This repo has taken a lot of effort, so consider leaving a star, follow me, and if you feel generous I have Paypal (just kidding).
