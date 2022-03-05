@@ -58,6 +58,7 @@ Make sure that the FTDI is connected:
 ```console
 lsusb
 ```
+![](https://i.postimg.cc/gJY5v88x/Screenshot-from-2022-03-04-23-18-45.png)
 
 Check the USB ports and grand root permissions to the port:
 ```console
