@@ -1,6 +1,34 @@
 # Robotics - UNAL - LAB3
 
 ## Requirements
+
+### Python
+
+So far you may probably have some trouble using *python* or *python3*. Let's update the Python 3 as default.
+
+```shell
+sudo update-alternatives --list python
+```
+
+If noting appears just populate the alternatives.
+
+```shell
+sudo update-alternatives --install /usr/bin/python python /usr/bin/python2.7 1
+sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.8 2
+```
+
+Your Python version may be different, just select whichever you have. Finally choose the version you want yop have as defult, in our case, number 2:
+
+```shell
+sudo update-alternatives --config python
+```
+
+![](https://i.postimg.cc/15LMWYtg/Screenshot-from-2022-03-29-22-11-20.png)
+
+Check your python version and use it just typing *python*.
+
+---
+
 ### Dynamixel wizard
 To test the dynamixel motors there is no better way than the official robotis software. [Here](https://emanual.robotis.com/docs/en/software/dynamixel/dynamixel_wizard2/) you will find an extensive installation tutorial. Once it is installed should look like this:
 ![](https://i.postimg.cc/wMLrh23Y/Screenshot-from-2022-03-04-20-44-38.png) 
